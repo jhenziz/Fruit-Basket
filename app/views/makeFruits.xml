@@ -1,0 +1,70 @@
+<Alloy>
+	<Window>
+		<View class="fbMainView">
+			<View id="headerMenu">
+				<ImageView class="doleLogo" image="/images/doleLogo.png" />
+				<ImageView id="btnHome" class="btnHome" image="/images/btnHome.png" />
+			</View>
+			<View id="titleHeader">
+				<Label id="pageTitle">FRUIT BASKET</Label>
+			</View>
+			<View id="fbStepsHeader">
+				<ImageView id="btnPickBasket"></ImageView>
+				<ImageView id="btnPickFruits"></ImageView>
+				<ImageView id="btnPickAccessories"></ImageView>
+				<ImageView id="btnWriteMessage"></ImageView>
+				<ImageView id="btnPickCashOut"></ImageView>
+			</View>
+			<View id="basketBody">
+					<View id="basketSelection">
+						<Button id="btnPremade">Baskets</Button>
+						<Button id="btnCustomize">Creates</Button>
+					</View>
+					<View class="basketView" id="basketView">
+						<!--<ImageView id="swipeText" image="/images/swipeText.png">-->
+						<ImageView id="basket" />
+					</View>
+					<View id="selectBasket">
+						 <ScrollableView id="scrollableView" showPagingControl="true">
+				            <View>
+				            	<ImageView id="regularBasket1" image="/images/regularBasketSmall.png">
+				            </View>
+				            <View>
+				            	<ImageView id="regularBasket2" image="/images/regularBasketMedium.png">
+				            </View>
+				            <View>
+				            	<ImageView id="regularBasket3" image="/images/regularBasketLarge.png">
+				            </View>
+				        </ScrollableView>
+					</View>
+			</View>
+			<View id="fruitsBody">
+					<View id="fruitSelection">
+						<ScrollableView id="scrollableView" showPagingControl="true">
+				            <View>
+				            	<ImageView id="apple" class="apple" image="/images/apple.png" />
+				            	<ImageView id="banana" class="banana" image="/images/banana.png" />
+				            	<ImageView id="orange" class="orange" image="/images/orange.png" />
+				            	<ImageView id="grapes" class="grapes" image="/images/grapes.png" />
+				            	<ImageView id="pinya" class="pinya" image="/images/pinya.png" />
+				            </View>
+				            <View>
+				            	<ImageView id="apple" class="apple" image="/images/apple.png" />
+				            	<ImageView id="banana" class="banana" image="/images/banana.png" />
+				            	<ImageView id="orange" class="orange" image="/images/orange.png" />
+				            	<ImageView id="grapes" class="grapes" image="/images/grapes.png" />
+				            	<ImageView id="pinya" class="pinya" image="/images/pinya.png" />
+				            </View>
+				        </ScrollableView>
+					</View>
+					<View class="basketView" id="basketView2">
+						<!--<ImageView id="swipeText" image="/images/swipeText.png">-->
+						<ImageView id="basket2" />
+					</View>
+			</View>
+			<View id="accessoriesBody">
+					<Label>Sample 3</Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

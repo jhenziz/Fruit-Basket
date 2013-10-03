@@ -1,0 +1,162 @@
+//Classes
+".fbMainView":{
+
+}
+".doleLogo": {
+	top : "16%",
+	height : "63%",
+	width : "38%"
+}
+".btnHome": {
+	top : "10%",
+	right : "3%",
+	height : "77%",
+	width : "15%"	
+}
+".basketView": {
+	top : "50%"
+}
+".apple": {
+	left : "3%"
+}
+".banana": {
+	left : "23%"
+}
+".orange": {
+	left : "43%"
+}
+".grapes": {
+	left : "63%"
+}
+".pinya": {
+	left : "83%"
+}
+
+
+
+
+
+//ID's
+"#headerMenu": {
+	backgroundImage : '/images/fbHeaderBG.png',
+	top : 0,
+	height : "15%",
+	width : Ti.UI.FILL
+}
+"#titleHeader": {
+	top : "15%",
+	backgroundColor : "#00a5e5",
+	height : "10%",
+	width : Ti.UI.FILL
+}
+"#pageTitle": {
+	color : "white",
+	width : Ti.UI.SIZE,
+	height : Ti.UI.SIZE,
+	font : {fontSize : 30, fontFamily : "Arial"}
+}
+"#fbStepsHeader": {
+	backgroundColor : "white",
+	top : "25%",
+	height : "10%",
+	width : Ti.UI.FILL	
+}
+"#PickFruits": {
+	height : Ti.UI.FILL,
+	width : Ti.UI.FILL
+}
+"#basketBody": {
+	top : "35%",
+	backgroundImage : '/images/woodenBackground.png',
+	height : Ti.UI.FILL,
+	width : Ti.UI.FILL
+}
+"#fruitsBody": {
+	top : "35%",
+	backgroundImage : '/images/selectFruitsBackground.png',
+	height : Ti.UI.FILL,
+	width : Ti.UI.FILL
+}
+"#accessoriesBody": {
+	top : "35%",
+	backgroundColor : "yellow",
+	height : Ti.UI.FILL,
+	width : Ti.UI.FILL
+}
+"#btnPickBasket": {
+	top : "15%",
+	left : "5%"
+}
+"#btnPickFruits": {
+	top : "15%",
+	left : "23.2%"
+}
+"#btnPickAccessories": {
+	top : "15%",
+	left : "41.2%"	
+}
+"#btnWriteMessage": {
+	top : "15%",
+	left : "59.2%"
+}
+"#btnPickCashOut": {
+	top : "15%",
+	left : "77%"
+}
+"#basketSelection": {
+	backgroundImage : '/images/bgTransparent.png',
+	top : 0,
+	height : "13%",
+	width : Ti.UI.FILL
+}
+"#btnPremade": {
+	backgroundColor : "#e11837",
+	top : "20%",
+	left : "3%",
+	borderRadius : 4,
+	height : "60%",
+	width : "45%",
+	color : "white",
+	opacity : "1",
+	font : {fontSize : 20, fontFamily : "Arial"}
+}
+
+"#btnCustomize": {
+	backgroundColor : "#0054a6",
+	top : "20%",
+	right: "3%",
+	borderRadius : 4,
+	height : "60%",
+	width : "45%",
+	color : "white",
+	opacity : "1",
+	font : {fontSize : 20, fontFamily : "Arial"}
+}
+/*"#swipeText": {
+	top : "17%"
+}*/
+
+"#selectBasket": {
+	top : "20%",
+	left : "10%",
+	right : "10%",
+	bottom : "10%",
+	borderRadius : 10,
+	backgroundColor : "red"
+}
+"#fruitSelection": {
+	backgroundImage : '/images/bgTransparent.png',
+	top : 0,
+	height : "13%",
+	width : Ti.UI.FILL	
+}
+
+
+
+
+
+
+
+
+
+

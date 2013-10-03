@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container">
+		<View id="menuMain">
+			<View id="mainMenuHeader">
+				<ImageView id="doleHeader" image="/images/doleHeader.png"></ImageView>
+			</View>
+			
+			<View id="btnContainer">
+				<ImageView id="btnFruitBasket" image="/images/btnFruitBasket.png" />
+				<ImageView id="btnStoreLocator" image="/images/btnStores.png" />
+				<ImageView id="btnStamps" image="/images/btnStamps.png" />
+				<ImageView id="btnNotification" image="/images/btnNotification.png" />
+			</View>
+		</View>
+	</Window>
+</Alloy>
